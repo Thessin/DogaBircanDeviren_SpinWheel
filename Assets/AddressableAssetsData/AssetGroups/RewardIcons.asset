@@ -12,11 +12,151 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
   m_Name: RewardIcons
   m_EditorClassIdentifier: 
-  m_GroupName: Packed Assets
+  m_GroupName: RewardIcons
   m_Data:
     m_SerializedData: []
   m_GUID: afe47f9e485ce814d8d584b4879de092
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 19edbe32507e1d24d8f285d72b1d893e
+    m_Address: ui_icon_aviator_glasses_easter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd8e4ed89cbbb9a468067508e097d957
+    m_Address: ui_icon_baseball_cap_easter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 33900f2c391f8e946b0ff0caae7c3ef5
+    m_Address: UI_icon_cash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 38ce437b2349d434fb78ab9f7d637ca8
+    m_Address: UI_icon_chest_big_nolight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3e6ea86b7ce8024baa46996c7762ed1
+    m_Address: UI_icon_chest_Bronze_nolight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7cdcb748e45fd6a40a8f76a79a57091d
+    m_Address: UI_icon_chest_gold_nolight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22396bc2377b66f49876f03439fac6be
+    m_Address: UI_icon_chest_silver_nolight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8bbb3120ecb882f409567b7fd9372dbd
+    m_Address: UI_icon_chest_small_noligt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 99684c2ea54cc3d47ac39de525e98681
+    m_Address: UI_icon_chest_standart_nolight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e686951c603fb5449b819220e9e4086
+    m_Address: UI_icon_chest_super_nolight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ead6c5e2c632c8d499001a79a6a86b64
+    m_Address: UI_icon_gold
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e80faac18ab2354195583935cfba980
+    m_Address: ui_icon_helmet_pumpkin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2484d8c15f099a34ca9d2b2de40c7bbc
+    m_Address: ui_icon_mle_bayonet_easter_time
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6222544e124988247ac685745df90a0f
+    m_Address: ui_icon_mle_bayonet_summer_vice
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ea02f8b68b897af499609cf66f2e8692
+    m_Address: ui_icon_render_cons_grenade_m26
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cbaafe60b6013074d800bb1a3dc5c313
+    m_Address: ui_icon_render_cons_grenade_m67
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a30ebadfec9d6ec4eb60c8374e6d1815
+    m_Address: ui_icon_render_cons_healthshot_2_neurostim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0e99dd8f40ad00942ab7c0885c10b998
+    m_Address: ui_icon_render_cons_healthshot_2_regenerator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd5fbb6ac36c229479eac666810352b4
+    m_Address: ui_icon_render_t_cons_molotov
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c208abc44224cd247bef55ba86fa2376
+    m_Address: UI_Icon_Renders_tier1_shotgun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd278e1d728d4464a810c1c0fa156074
+    m_Address: UI_Icon_Renders_tier2_mle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2407407cb1567f04b89cf5df85938c23
+    m_Address: UI_Icon_Renders_tier2_rifle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a332dc1e0864d7a4b9837b4906d768ba
+    m_Address: UI_Icon_Renders_tier3_shotgun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 82157a0cbbddb594f96990ffd4b6bb5b
+    m_Address: UI_Icon_Renders_tier3_smg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: abca9f3a7e611a24c8c5be5dcb996084
+    m_Address: UI_Icon_Renders_tier3_sniper
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1a0b7f19d288e047a92867e85db8473
+    m_Address: UI_Icons_Armor_Points
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 027bdacb1a1bfe64a98eb8e289f8e06e
+    m_Address: UI_Icons_Knife_Points
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fdddfd55277d41440b570d58828fd8f9
+    m_Address: UI_Icons_Pistol_Points
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b7f388358c1c55f42937c1a9f0685a8e
+    m_Address: UI_Icons_Pistol_Points_
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dcf1114a2c6a7a1499b500a542bc17fa
+    m_Address: UI_Icons_Rifle_Points
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 52cb5351d40fb024b98872bd1043ebce
+    m_Address: UI_Icons_Shotgun_Points
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43b61fdbc0eb76d4ba0953dfcc6c9b69
+    m_Address: UI_Icons_SMG_Points
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a61c8237c3de97c42bd0d1636c6e72d2
+    m_Address: UI_Icons_Sniper_Points
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17b87a0a8a5f73a4c9b0ddae158af1ed
+    m_Address: UI_Icons_Submachine_Points
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c2f7a30dd52b374f972e38e869f18dd
+    m_Address: UI_Icons_Vest_Points
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8ec5e4e1750048e44be156cf4790ffe0, type: 2}
   m_SchemaSet:
