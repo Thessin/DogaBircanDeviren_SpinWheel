@@ -1,18 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.UI;
 
 public class RewardItem : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField, HideInInspector]
+    private Image itemImage;
+
+    [SerializeField, HideInInspector]
+    private TextMeshProUGUI multiplierTxt;
+
+    private AsyncOperationHandle<Sprite> spriteLoadHandle;
+
+    private void OnValidate()
     {
-        
+        itemImage = GetComponentInChildren<Image>();
+        multiplierTxt = GetComponentInChildren<TextMeshProUGUI>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Setup(RewardInfo info)
     {
-        
+        // Need to release the old sprite asset.
+        if (spriteLoadHandle.IsValid())
+            Addressables.Release(spriteLoadHandle);
+
+        spriteLoadHandle = Addressables.LoadAssetAsync<Sprite>(info.rewardSO.rewardImgRef);
+        spriteLoadHandle.Completed += (result) => itemImage.sprite = result.Result;
+
+        multiplierTxt.text = "x" + info.GetRewardMultiplierTxt();
     }
 }
