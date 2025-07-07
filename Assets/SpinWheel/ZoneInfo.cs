@@ -1,9 +1,11 @@
 using System;
+using UnityEngine;
 
 [Serializable]
 public class ZoneInfo
 {
-    public RewardSO[] rewards;
+    public RewardInfo[] rewards;
+    [HideInInspector]
     public ZoneType zoneType;
 }
 
