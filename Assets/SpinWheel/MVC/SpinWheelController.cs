@@ -40,6 +40,15 @@ public class SpinWheelController : MonoBehaviour
 
     private void GiveReward(RewardInfo reward)
     {
-        model.AddReward(reward);
+        switch (reward.rewardSO.rewardType)
+        {
+            case RewardType.BOMB:
+                model.currentlyCollectedRewards.Clear();
+                // TODO: Restart the game / Open the continue system. 
+                break;
+            default:
+                model.AddReward(reward);
+                break;
+        }
     }
 }
