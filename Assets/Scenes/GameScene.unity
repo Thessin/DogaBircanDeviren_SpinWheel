@@ -3554,8 +3554,10 @@ GameObject:
   - component: {fileID: 1931250959}
   - component: {fileID: 1931250961}
   - component: {fileID: 1931250960}
+  - component: {fileID: 1931250963}
+  - component: {fileID: 1931250962}
   m_Layer: 5
-  m_Name: SpinWheelBG
+  m_Name: SpinWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3624,6 +3626,73 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931250958}
   m_CullTransparentMesh: 1
+--- !u!114 &1931250962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931250958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa896d319ad941145b246108edcfc683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  view: {fileID: 1931250963}
+  spinBtn: {fileID: 799447247}
+--- !u!114 &1931250963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931250958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab81044bb85dfa64fb8fd6c104250165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheelImg: {fileID: 769651655}
+  pinImg: {fileID: 2047416867}
+  rewardItemObjs:
+  - {fileID: 745172661}
+  - {fileID: 1737196161}
+  - {fileID: 1108199616}
+  - {fileID: 253877038}
+  - {fileID: 2139954830}
+  - {fileID: 363315345}
+  - {fileID: 1765377859}
+  - {fileID: 382208260}
+  bronzePin:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  bronzeWheel:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  silverPin:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  silverWheel:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  goldenPin:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  goldenWheel:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
 --- !u!1 &1999820659
 GameObject:
   m_ObjectHideFlags: 0

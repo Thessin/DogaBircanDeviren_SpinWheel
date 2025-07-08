@@ -13,6 +13,7 @@ public class SpinWheelView : MonoBehaviour
     [SerializeField]
     private Image wheelImg, pinImg;
 
+    [SerializeField]
     private List<RewardItem> rewardItemObjs = new List<RewardItem>();
 
     [SerializeField]
