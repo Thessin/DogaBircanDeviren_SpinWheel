@@ -22,20 +22,24 @@ public class SpinWheelController : MonoBehaviour
     private void OnEnable()
     {
         spinBtn.onClick.AddListener(OnSpinBtnClicked);
+        view.OnSpinRotateComplete += GiveReward;
     }
 
     private void OnDisable()
     {
         spinBtn.onClick.RemoveListener(OnSpinBtnClicked);
+        view.OnSpinRotateComplete -= GiveReward;
     }
 
     private void OnSpinBtnClicked()
     {
         int spinCount = model.currentZone.GetRandomSpinCount();
 
-        view.SpinTheWheel(spinCount * 45.0f);
+        // Since spin count changes with every call, we need to send the reference of the reward to the chosen object and listen back.
+        view.SpinTheWheel(spinCount * 45.0f, model.currentZone.rewards[spinCount % 8]);
 
-        RewardInfo reward = model.currentZone.rewards[spinCount % 8];
+        // SpinBtn needs to be locked during spinning.
+        spinBtn.interactable = false;
     }
 
     private void GiveReward(RewardInfo reward)
@@ -43,7 +47,7 @@ public class SpinWheelController : MonoBehaviour
         switch (reward.rewardSO.GetRewardType())
         {
             case RewardType.BOMB:
-                model.currentlyCollectedRewards.Clear();
+                model.ResetModel();
                 // TODO: Restart the game / Open the continue system. 
                 break;
             default:

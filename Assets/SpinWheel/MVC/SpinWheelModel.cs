@@ -15,4 +15,10 @@ public class SpinWheelModel
         else
             currentlyCollectedRewards.Add(rewardId, reward);
     }
+
+    public void ResetModel()
+    {
+        currentZone = null;
+        currentlyCollectedRewards.Clear();
+    }
 }

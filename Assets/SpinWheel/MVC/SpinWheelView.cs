@@ -19,7 +19,7 @@ public class SpinWheelView : MonoBehaviour
     [SerializeField]
     private AssetReferenceSprite bronzePin, bronzeWheel, silverPin, silverWheel, goldenPin, goldenWheel;
 
-    public event Action OnSpinRotateComplete;
+    public event Action<RewardInfo> OnSpinRotateComplete;
 
     private float spinDuration = 3.0f;
 
@@ -46,11 +46,11 @@ public class SpinWheelView : MonoBehaviour
         wheelImg.transform.rotation = Quaternion.identity;
     }
 
-    public void SpinTheWheel(float rotation)
+    public void SpinTheWheel(float rotation, RewardInfo chosenReward)
     {
         wheelImg.transform.DORotate(new Vector3(0, 0, rotation), spinDuration)
             .SetEase(Ease.InCubic)
-            .OnComplete(() => OnSpinRotateComplete?.Invoke());
+            .OnComplete(() => OnSpinRotateComplete?.Invoke(chosenReward));
     }
 
     private void SetPinAndWheelImg(ZoneInfo info)
