@@ -12,4 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9828a9bac569b6d4586d5cf78e361d7b, type: 3}
   m_Name: ZoneList
   m_EditorClassIdentifier: 
-  zoneInfoList: []
+  zoneInfoList:
+  - rewards:
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 3
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 6
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 2
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 8
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 7
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 13
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 24
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 2900
+    zoneType: 2
+    spinCountMin: 24
+    spinCountMax: 32
