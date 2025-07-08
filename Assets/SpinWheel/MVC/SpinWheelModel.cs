@@ -1,9 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class SpinWheelModel : MonoBehaviour
+public class SpinWheelModel
 {
-    public int currentZone;
-    public List<RewardSO> currentlyCollectedRewards;
+    public ZoneInfo currentZone;
+    public Dictionary<int, RewardInfo> currentlyCollectedRewards = new Dictionary<int, RewardInfo>();
+
+    public void AddReward(RewardInfo reward)
+    {
+        int rewardId = reward.rewardSO.rewardId;
+
+        if (currentlyCollectedRewards.ContainsKey(rewardId))
+            currentlyCollectedRewards[rewardId].rewardMultiplier += reward.rewardMultiplier;
+        else
+            currentlyCollectedRewards.Add(rewardId, reward);
+    }
 }
