@@ -8,7 +8,7 @@ public class SpinWheelModel
 
     public void AddReward(RewardInfo reward)
     {
-        int rewardId = reward.rewardSO.rewardId;
+        int rewardId = reward.rewardSO.GetRewardId();
 
         if (currentlyCollectedRewards.ContainsKey(rewardId))
             currentlyCollectedRewards[rewardId].rewardMultiplier += reward.rewardMultiplier;

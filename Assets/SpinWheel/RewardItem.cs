@@ -28,7 +28,7 @@ public class RewardItem : MonoBehaviour
         if (spriteLoadHandle.IsValid())
             Addressables.Release(spriteLoadHandle);
 
-        spriteLoadHandle = Addressables.LoadAssetAsync<Sprite>(info.rewardSO.rewardImgRef);
+        spriteLoadHandle = Addressables.LoadAssetAsync<Sprite>(info.rewardSO.GetRewardImgRef());
         spriteLoadHandle.Completed += (result) => itemImage.sprite = result.Result;
 
         multiplierTxt.text = "x" + info.GetRewardMultiplierTxt();

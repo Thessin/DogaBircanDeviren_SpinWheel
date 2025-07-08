@@ -40,7 +40,7 @@ public class SpinWheelController : MonoBehaviour
 
     private void GiveReward(RewardInfo reward)
     {
-        switch (reward.rewardSO.rewardType)
+        switch (reward.rewardSO.GetRewardType())
         {
             case RewardType.BOMB:
                 model.currentlyCollectedRewards.Clear();
