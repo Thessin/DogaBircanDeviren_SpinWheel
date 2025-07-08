@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RewardTest
   m_EditorClassIdentifier: 
   rewardImgRef:
-    m_AssetGUID: 
+    m_AssetGUID: 19edbe32507e1d24d8f285d72b1d893e
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
