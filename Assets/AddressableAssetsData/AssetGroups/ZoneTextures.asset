@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ZoneTextures
+  m_EditorClassIdentifier: 
+  m_GroupName: ZoneTextures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 186be75ef6e6d6244a05f294a8eacb7d
+  m_SerializeEntries:
+  - m_GUID: 8f3d9b6ba92b8454abe4e81176b99fd3
+    m_Address: ui_card_panel_zone_current
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3e6979b84d6bb145a69a0228312e196
+    m_Address: ui_card_panel_zone_super
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1ffc0157d851e6439fa7d6d765285de
+    m_Address: ui_card_panel_zone_white
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8ec5e4e1750048e44be156cf4790ffe0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 36875d8f0c9a8fb438caa8b173194a2e, type: 2}
+    - {fileID: 11400000, guid: ef85c0408738cac4a8dce466b7fde6a2, type: 2}

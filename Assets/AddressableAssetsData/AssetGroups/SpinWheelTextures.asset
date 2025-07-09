@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SpinWheelTextures
+  m_EditorClassIdentifier: 
+  m_GroupName: SpinWheelTextures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 65d8a849eb828a5479186d5aa4db8b8a
+  m_SerializeEntries:
+  - m_GUID: bf09dde13f717724fa9234dc02f49e77
+    m_Address: ui_spin_bronze_base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b130ba6ea258e104e9c642999fe76355
+    m_Address: ui_spin_bronze_indicator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 14145b097f298764d86c3f84c58fe15e
+    m_Address: ui_spin_golden_base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e9b997bd0816c443aa7ae1620ccb354
+    m_Address: ui_spin_golden_indicator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e009396bc928b5247a2838b934e231b2
+    m_Address: ui_spin_silver_base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f650b201561a4f498e65215b3f1c7df
+    m_Address: ui_spin_silver_indicator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8ec5e4e1750048e44be156cf4790ffe0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fd9fe4e17b6ac1642a54249487a76135, type: 2}
+    - {fileID: 11400000, guid: 109c19ae06ec58649b654ccf3f89b85f, type: 2}
