@@ -29,7 +29,7 @@ public class ZoneListSO : ScriptableObject
             zoneInfoList[i].zoneType = zoneType;
 
             // Give warning about missing/surplus rewards.
-            if (zoneInfoList[i].rewards.Length != 8)
+            if (zoneInfoList[i].GetRewardCount() != 8)
             {
                 Debug.LogWarning("Zone info " + i + "th element doesn't have 8 rewards.");
             }

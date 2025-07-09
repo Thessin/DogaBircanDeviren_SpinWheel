@@ -34,9 +34,9 @@ public class SpinWheelView : MonoBehaviour
     public void SetupWheel(ZoneInfo info)
     {
         // Setting up reward objects.
-        for (int i = 0; i < info.rewards.Length; i++)
+        for (int i = 0; i < info.GetRewardCount(); i++)
         {
-            rewardItemObjs[i].Setup(info.rewards[i]);
+            rewardItemObjs[i].Setup(info.GetReward(i));
         }
 
         // Setting pin and wheel images.

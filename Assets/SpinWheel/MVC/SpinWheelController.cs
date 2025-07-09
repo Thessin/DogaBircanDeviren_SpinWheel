@@ -36,7 +36,7 @@ public class SpinWheelController : MonoBehaviour
         int spinCount = model.currentZone.GetRandomSpinCount();
 
         // Since spin count changes with every call, we need to send the reference of the reward to the chosen object and listen back.
-        view.SpinTheWheel(spinCount * 45.0f, model.currentZone.rewards[spinCount % 8]);
+        view.SpinTheWheel(spinCount * 45.0f, model.currentZone.GetReward(spinCount % 8));
 
         // SpinBtn needs to be locked during spinning.
         spinBtn.interactable = false;
@@ -44,7 +44,7 @@ public class SpinWheelController : MonoBehaviour
 
     private void GiveReward(RewardInfo reward)
     {
-        switch (reward.rewardSO.GetRewardType())
+        switch (reward.GetRewardType())
         {
             case RewardType.BOMB:
                 model.ResetModel();
