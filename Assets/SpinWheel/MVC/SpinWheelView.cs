@@ -48,8 +48,8 @@ public class SpinWheelView : MonoBehaviour
 
     public void SpinTheWheel(float rotation, RewardInfo chosenReward)
     {
-        wheelImg.transform.DORotate(new Vector3(0, 0, rotation), spinDuration)
-            .SetEase(Ease.InCubic)
+        wheelImg.transform.DORotate(new Vector3(0, 0, rotation), spinDuration, RotateMode.FastBeyond360)
+            .SetEase(Ease.InOutCubic)
             .OnComplete(() => OnSpinRotateComplete?.Invoke(chosenReward));
     }
 
