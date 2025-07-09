@@ -245,6 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btnGO: {fileID: 3712004447429715329, guid: 067dedeb8cca1114295658b58110fc4f, type: 3}
+  zoneBtnParent: {fileID: 542087263}
 --- !u!114 &106060818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3987,32 +3988,32 @@ MonoBehaviour:
   - {fileID: 1765377859}
   - {fileID: 382208260}
   bronzePin:
-    m_AssetGUID: 
+    m_AssetGUID: b130ba6ea258e104e9c642999fe76355
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   bronzeWheel:
-    m_AssetGUID: 
+    m_AssetGUID: bf09dde13f717724fa9234dc02f49e77
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   silverPin:
-    m_AssetGUID: 
+    m_AssetGUID: 9f650b201561a4f498e65215b3f1c7df
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   silverWheel:
-    m_AssetGUID: 
+    m_AssetGUID: e009396bc928b5247a2838b934e231b2
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   goldenPin:
-    m_AssetGUID: 
+    m_AssetGUID: 5e9b997bd0816c443aa7ae1620ccb354
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   goldenWheel:
-    m_AssetGUID: 
+    m_AssetGUID: 14145b097f298764d86c3f84c58fe15e
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0

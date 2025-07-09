@@ -139,17 +139,17 @@ MonoBehaviour:
   zoneTxt: {fileID: 178468822513314189}
   bgImg: {fileID: 178468821343255648}
   normalBGRef:
-    m_AssetGUID: 
+    m_AssetGUID: a1ffc0157d851e6439fa7d6d765285de
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   safeBGRef:
-    m_AssetGUID: 
+    m_AssetGUID: 8f3d9b6ba92b8454abe4e81176b99fd3
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   superBGRef:
-    m_AssetGUID: 
+    m_AssetGUID: a3e6979b84d6bb145a69a0228312e196
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
