@@ -12,7 +12,7 @@ public class ZoneView : MonoBehaviour
 
     public void SetupZones(ZoneListWrapper zoneList, Action<int> OnBtnClicked)
     {
-        for (int i = 0; zoneList.GetZoneListCount() > 0; i++)
+        for (int i = 0; i < zoneList.GetZoneListCount(); i++)
         {
             ZoneButton btn = Instantiate(btnGO);
             btn.SetupBtn(i, zoneList.GetZoneType(i));
