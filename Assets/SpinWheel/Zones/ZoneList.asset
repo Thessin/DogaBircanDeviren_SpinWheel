@@ -33,3 +33,23 @@ MonoBehaviour:
     zoneType: 2
     spinCountMin: 24
     spinCountMax: 32
+  - rewards:
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 13000
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 8000
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 1310000
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 123123
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 14123
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 1231241
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 324252
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 1
+    zoneType: 0
+    spinCountMin: 16
+    spinCountMax: 24
