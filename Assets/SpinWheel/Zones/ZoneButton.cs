@@ -51,7 +51,7 @@ public class ZoneButton : MonoBehaviour
     public void SetupBtn(int zoneNumber, ZoneType zoneType)
     {
         // Setting zone number text.
-        zoneTxt.text = zoneNumber.ToString();
+        zoneTxt.text = (zoneNumber + 1).ToString(); // +1 since levels shouldn't start with 0.
         btnNum = zoneNumber;
 
         // Setting background image.
