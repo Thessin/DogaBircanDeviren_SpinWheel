@@ -31,6 +31,12 @@ public class SpinWheelController : MonoBehaviour
         view.OnSpinRotateComplete -= GiveReward;
     }
 
+    public void SetupController(ZoneInfo zoneInfo)
+    {
+        model.currentZone = zoneInfo;
+        view.SetupWheel(model);
+    }
+
     private void OnSpinBtnClicked()
     {
         int spinCount = model.currentZone.GetRandomSpinCount();

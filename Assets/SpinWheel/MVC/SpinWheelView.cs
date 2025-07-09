@@ -31,16 +31,16 @@ public class SpinWheelView : MonoBehaviour
         OnSpinRotateComplete = null;
     }
 
-    public void SetupWheel(ZoneInfo info)
+    public void SetupWheel(SpinWheelModel model)
     {
         // Setting up reward objects.
-        for (int i = 0; i < info.GetRewardCount(); i++)
+        for (int i = 0; i < model.currentZone.GetRewardCount(); i++)
         {
-            rewardItemObjs[i].Setup(info.GetReward(i));
+            rewardItemObjs[i].Setup(model.currentZone.GetReward(i));
         }
 
         // Setting pin and wheel images.
-        SetPinAndWheelImg(info);
+        SetPinAndWheelImg(model.currentZone);
 
         // Reset wheel transformation.
         wheelImg.transform.rotation = Quaternion.identity;
