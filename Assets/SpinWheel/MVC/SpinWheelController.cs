@@ -19,6 +19,11 @@ public class SpinWheelController : MonoBehaviour
         spinBtn = GetComponentInChildren<Button>();
     }
 
+    private void Awake()
+    {
+        model = new SpinWheelModel();
+    }
+
     private void OnEnable()
     {
         spinBtn.onClick.AddListener(OnSpinBtnClicked);

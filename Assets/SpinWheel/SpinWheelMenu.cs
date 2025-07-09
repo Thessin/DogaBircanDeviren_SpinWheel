@@ -24,7 +24,7 @@ public class SpinWheelMenu : MonoBehaviour
         zoneController.OnZoneSelected -= ZoneSelected;
     }
 
-    private void Awake()
+    private void Start()
     {
         spinWheelController.SetupController(zoneList.GetZoneInfo(0));
         zoneController.SetupController(zoneList);
