@@ -17,11 +17,13 @@ public class SpinWheelMenu : MonoBehaviour
     private void OnEnable()
     {
         zoneController.OnZoneSelected += ZoneSelected;
+        spinWheelController.OnReward += OnRewarded;
     }
 
     private void OnDisable()
     {
         zoneController.OnZoneSelected -= ZoneSelected;
+        spinWheelController.OnReward -= OnRewarded;
     }
 
     private void Awake()
@@ -32,5 +34,10 @@ public class SpinWheelMenu : MonoBehaviour
     private void ZoneSelected(int zoneIndex)
     {
         spinWheelController.SetupController(zoneList.GetZoneInfo(zoneIndex));
+    }
+
+    private void OnRewarded(int rewardedIndex)
+    {
+        zoneController.ZoneRewarded(rewardedIndex);
     }
 }

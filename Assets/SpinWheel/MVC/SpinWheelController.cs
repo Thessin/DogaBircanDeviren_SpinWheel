@@ -14,9 +14,16 @@ public class SpinWheelController : MonoBehaviour
     [SerializeField, HideInInspector]
     private Button spinBtn;
 
+    public event Action<int> OnReward;
+
     private void OnValidate()
     {
         spinBtn = GetComponentInChildren<Button>();
+    }
+
+    private void OnDestroy()
+    {
+        OnReward = null;
     }
 
     private void OnEnable()
@@ -64,5 +71,7 @@ public class SpinWheelController : MonoBehaviour
                 model.AddReward(reward);
                 break;
         }
+
+        OnReward?.Invoke(model.GetRewardedCount());
     }
 }

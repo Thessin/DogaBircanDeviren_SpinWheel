@@ -25,6 +25,8 @@ public class SpinWheelModel
         return rewardedCount == currentZone.zoneIndex;
     }
 
+    public int GetRewardedCount() => rewardedCount;
+
     public void ResetModel()
     {
         currentZone = null;
