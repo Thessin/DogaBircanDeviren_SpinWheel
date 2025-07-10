@@ -29,7 +29,7 @@ public class ZoneButton : MonoBehaviour
 
     private AsyncOperationHandle<Sprite> bgImgOpHandle, frameImgOpHandle;
 
-    public ZoneBtnStateBase ZoneBtnState { get;private set; }
+    public ZoneBtnStateBase ZoneBtnState { get; private set; }
 
     private void OnValidate()
     {
@@ -39,8 +39,7 @@ public class ZoneButton : MonoBehaviour
 
     private void Awake()
     {
-        // This should be unselected at first.
-        SetBtnState(new ZoneNonSelectedState(this));
+        ZoneBtnState = new ZoneNonSelectedState(this);
     }
 
     private void OnEnable()
@@ -81,6 +80,9 @@ public class ZoneButton : MonoBehaviour
         }
         bgImgOpHandle = Addressables.LoadAssetAsync<Sprite>(chosenSpriteRef);
         bgImgOpHandle.Completed += (result) => bgImg.sprite = result.Result;
+
+        // This should be non-selected at first.
+        SetBtnState(new ZoneNonSelectedState(this));
     }
 
     private void OnBtnClicked()
@@ -90,8 +92,9 @@ public class ZoneButton : MonoBehaviour
 
     public void SetBtnState(ZoneBtnStateBase zoneBtnState)
     {
-        this.ZoneBtnState = zoneBtnState;
-        this.ZoneBtnState.EnterState();
+        ZoneBtnState.ExitState();
+        ZoneBtnState = zoneBtnState;
+        ZoneBtnState.EnterState();
     }
 
     public void SetBtnFrameImg(BtnFrameImageType frameType)
@@ -112,6 +115,16 @@ public class ZoneButton : MonoBehaviour
         }
         frameImgOpHandle = Addressables.LoadAssetAsync<Sprite>(chosenRef);
         frameImgOpHandle.Completed += (result) => frameImg.sprite = result.Result;
+    }
+
+    public void LockButton(bool isLock)
+    {
+        btn.interactable = !isLock;
+    }
+
+    public void SetFrameColor(Color color)
+    {
+        frameImg.color = color;
     }
 }
 

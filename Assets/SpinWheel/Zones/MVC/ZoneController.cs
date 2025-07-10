@@ -19,13 +19,13 @@ public class ZoneController : MonoBehaviour
 
     public void SetupController(ZoneListWrapper zoneList)
     {
+        if (model == null)
+            model = new ZoneModel(0);
+
         view.SetupZones(zoneList);
+
         view.OnBtnClicked -= ZoneSelected;
         view.OnBtnClicked += ZoneSelected;
-        if (model == null)
-            model = new ZoneModel();
-
-        model.zoneList = zoneList;
 
         // Should start as first zone selected.
         ZoneSelected(0);
@@ -34,6 +34,13 @@ public class ZoneController : MonoBehaviour
     private void ZoneSelected(int zoneIndex)
     {
         OnZoneSelected?.Invoke(zoneIndex);
-        view.UpdateButtons(model);
+        model.ZoneSelected(zoneIndex);
+        view.ZoneSelected(model);
+    }
+
+    public void ZoneRewarded(int zoneIndex)
+    {
+        model.ZoneSpun();
+        view.ZoneRewarded(model);
     }
 }

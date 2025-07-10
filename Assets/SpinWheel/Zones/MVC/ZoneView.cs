@@ -29,26 +29,32 @@ public class ZoneView : MonoBehaviour
         for (int i = 0; i < zoneList.GetZoneListCount(); i++)
         {
             ZoneButton btn = Instantiate(btnGO, zoneBtnParent);
+            btn.gameObject.name += ("_" + i);
             btn.SetupBtn(i, zoneList.GetZoneType(i));
-            btn.OnClicked -= OnButtonClicked;
-            btn.OnClicked += OnButtonClicked;
+            btn.OnClicked -= ButtonClicked;
+            btn.OnClicked += ButtonClicked;
             instantiatedBtns[i] = btn;
         }
     }
 
-    private void OnButtonClicked(int clickedIndex)
+    private void ButtonClicked(int clickedIndex)
     {
-        // Need to send every zone button which one is chosen so they can decide on their states.
-        foreach (ZoneButton btn in instantiatedBtns)
-        {
-            btn.ZoneBtnState.OnBtnClicked(clickedIndex);
-        }
-
         OnBtnClicked?.Invoke(clickedIndex);
     }
 
-    public void UpdateButtons(ZoneModel model)
+    public void ZoneSelected(ZoneModel model)
     {
+        foreach(ZoneButton btn in instantiatedBtns)
+        {
+            btn.ZoneBtnState.ZoneSelected(model);
+        }
+    }
 
+    public void ZoneRewarded(ZoneModel model)
+    {
+        foreach (ZoneButton btn in instantiatedBtns)
+        {
+            btn.ZoneBtnState.ZoneRewarded(model);
+        }
     }
 }

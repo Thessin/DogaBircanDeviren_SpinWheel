@@ -8,7 +8,9 @@ public abstract class ZoneBtnStateBase
     }
 
     public abstract void EnterState();
-    public abstract void OnBtnClicked(int clickedBtnIndex);
+    public abstract void ExitState();
+    public abstract void ZoneSelected(ZoneModel model);
+    public abstract void ZoneRewarded(ZoneModel model);
 }
 
 public class ZoneNonSelectedState : ZoneBtnStateBase
@@ -21,12 +23,21 @@ public class ZoneNonSelectedState : ZoneBtnStateBase
         btn.SetBtnFrameImg(BtnFrameImageType.NON_SELECTED);
     }
 
-    public override void OnBtnClicked(int clickedBtnIndex)
+    public override void ExitState()
     {
-        if (clickedBtnIndex == btn.BtnNum)
-        {
+
+    }
+
+    public override void ZoneRewarded(ZoneModel model)
+    {
+        if (model.CurrentZoneIndex == btn.BtnNum)
+            btn.SetBtnState(new ZoneCurrentState(btn));
+    }
+
+    public override void ZoneSelected(ZoneModel model)
+    {
+        if (model.SelectedZoneIndex == btn.BtnNum)
             btn.SetBtnState(new ZoneSelectedState(btn));
-        }
     }
 }
 
@@ -40,11 +51,24 @@ public class ZoneSelectedState : ZoneBtnStateBase
         btn.SetBtnFrameImg(BtnFrameImageType.SELECTED);
     }
 
-    public override void OnBtnClicked(int clickedBtnIndex)
+    public override void ExitState()
     {
-        if (clickedBtnIndex != btn.BtnNum)
+
+    }
+
+    public override void ZoneRewarded(ZoneModel model)
+    {
+
+    }
+
+    public override void ZoneSelected(ZoneModel model)
+    {
+        if (model.SelectedZoneIndex != btn.BtnNum)
         {
-            btn.SetBtnState(new ZoneNonSelectedState(btn));
+            if (model.CurrentZoneIndex == btn.BtnNum)
+                btn.SetBtnState(new ZoneCurrentState(btn));
+            else
+                btn.SetBtnState(new ZoneNonSelectedState(btn));
         }
     }
 }
@@ -56,13 +80,28 @@ public class ZoneCurrentState : ZoneBtnStateBase
     public override void EnterState()
     {
         btn.SetBtnFrameImg(BtnFrameImageType.CURRENT);
+        btn.SetFrameColor(new UnityEngine.Color(0.5f, 0.75f, 0.98f));
     }
 
-    public override void OnBtnClicked(int clickedBtnIndex)
+    public override void ExitState()
     {
-        if(clickedBtnIndex == btn.BtnNum)
+        btn.SetFrameColor(new UnityEngine.Color(1.0f, 1.0f, 1.0f));
+    }
+
+    public override void ZoneRewarded(ZoneModel model)
+    {
+        if (model.CurrentZoneIndex != btn.BtnNum)
         {
-            btn.SetBtnState(new ZoneSelectedState(btn));
+            if (model.SelectedZoneIndex == btn.BtnNum)
+                btn.SetBtnState(new ZoneSelectedState(btn));
+            else
+                btn.SetBtnState(new ZoneNonSelectedState(btn));
         }
+    }
+
+    public override void ZoneSelected(ZoneModel model)
+    {
+        if (model.SelectedZoneIndex == btn.BtnNum)
+            btn.SetBtnState(new ZoneSelectedState(btn));
     }
 }
