@@ -12,6 +12,8 @@ public class ZoneListSO : ScriptableObject
         ZoneType zoneType = ZoneType.NORMAL;
         for (int i = 0; i < zoneInfoList.Count; i++)
         {
+            ZoneInfo infoObj = zoneInfoList[i];
+
             if ((i + 1) % 30 == 0 && i != 0)
             {
                 zoneType = ZoneType.SUPER;
@@ -26,10 +28,13 @@ public class ZoneListSO : ScriptableObject
             }
 
             // Setting zone types with needed values.
-            zoneInfoList[i].zoneType = zoneType;
+            infoObj.zoneType = zoneType;
+
+            // Setting zone index.
+            infoObj.zoneIndex = i;
 
             // Give warning about missing/surplus rewards.
-            if (zoneInfoList[i].GetRewardCount() != 8)
+            if (infoObj.GetRewardCount() != 8)
             {
                 Debug.LogWarning("Zone info " + i + "th element doesn't have 8 rewards.");
             }

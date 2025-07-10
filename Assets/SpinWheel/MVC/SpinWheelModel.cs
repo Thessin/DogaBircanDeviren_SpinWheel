@@ -22,7 +22,7 @@ public class SpinWheelModel
 
     public bool IsSpinnable()
     {
-        return rewardedCount == currentZone.GetZoneIndex();
+        return rewardedCount == currentZone.zoneIndex;
     }
 
     public void ResetModel()
