@@ -11,7 +11,8 @@ public class RewardInfo
 
     public string GetRewardMultiplierTxt()
     {
-        return (rewardMultiplier / 1000).ToString("D") + "K";
+        int division = rewardMultiplier / 1000;
+        return division == 0 ? rewardMultiplier.ToString() : division.ToString("D") + "K";
     }
 
     public int GetRewardId() => rewardSO.rewardId;
