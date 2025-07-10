@@ -19,11 +19,6 @@ public class SpinWheelController : MonoBehaviour
         spinBtn = GetComponentInChildren<Button>();
     }
 
-    private void Awake()
-    {
-        model = new SpinWheelModel();
-    }
-
     private void OnEnable()
     {
         spinBtn.onClick.AddListener(OnSpinBtnClicked);
@@ -38,6 +33,9 @@ public class SpinWheelController : MonoBehaviour
 
     public void SetupController(ZoneInfo zoneInfo)
     {
+        if (model == null)
+            model = new SpinWheelModel();
+
         model.currentZone = zoneInfo;
         view.SetupWheel(model);
     }
