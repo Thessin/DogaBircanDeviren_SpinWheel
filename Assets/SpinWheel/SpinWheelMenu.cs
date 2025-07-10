@@ -26,7 +26,6 @@ public class SpinWheelMenu : MonoBehaviour
 
     private void Start()
     {
-        spinWheelController.SetupController(zoneList.GetZoneInfo(0));
         zoneController.SetupController(zoneList);
     }
 
