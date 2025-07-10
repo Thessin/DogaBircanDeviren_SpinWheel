@@ -36,7 +36,7 @@ public class ZoneView : MonoBehaviour
         }
     }
 
-    public void OnButtonClicked(int clickedIndex)
+    private void OnButtonClicked(int clickedIndex)
     {
         // Need to send every zone button which one is chosen so they can decide on their states.
         foreach (ZoneButton btn in instantiatedBtns)
