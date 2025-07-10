@@ -8,8 +8,7 @@ public abstract class ZoneBtnStateBase
     }
 
     public abstract void EnterState();
-    public abstract void ExitState();
-    public abstract void OnBtnClicked(ZoneButton clickedBtn);
+    public abstract void OnBtnClicked(int clickedBtnIndex);
 }
 
 public class ZoneNonSelectedState : ZoneBtnStateBase
@@ -19,16 +18,12 @@ public class ZoneNonSelectedState : ZoneBtnStateBase
     public override void EnterState()
     {
         UnityEngine.Debug.Log("ENTERING NON-SELECTED STATE");
+        btn.SetBtnFrameImg(BtnFrameImageType.NON_SELECTED);
     }
 
-    public override void ExitState()
+    public override void OnBtnClicked(int clickedBtnIndex)
     {
-        UnityEngine.Debug.Log("EXITING NON-SELECTED STATE");
-    }
-
-    public override void OnBtnClicked(ZoneButton clickedBtn)
-    {
-        if (clickedBtn == btn)
+        if (clickedBtnIndex == btn.BtnNum)
         {
             btn.SetBtnState(new ZoneSelectedState(btn));
         }
@@ -42,15 +37,32 @@ public class ZoneSelectedState : ZoneBtnStateBase
     public override void EnterState()
     {
         UnityEngine.Debug.Log("ENTERING SELECTED STATE");
+        btn.SetBtnFrameImg(BtnFrameImageType.SELECTED);
     }
 
-    public override void ExitState()
+    public override void OnBtnClicked(int clickedBtnIndex)
     {
-        UnityEngine.Debug.Log("EXITING SELECTED STATE");
+        if (clickedBtnIndex != btn.BtnNum)
+        {
+            btn.SetBtnState(new ZoneNonSelectedState(btn));
+        }
+    }
+}
+
+public class ZoneCurrentState : ZoneBtnStateBase
+{
+    public ZoneCurrentState(ZoneButton btn) : base(btn) { }
+
+    public override void EnterState()
+    {
+        btn.SetBtnFrameImg(BtnFrameImageType.CURRENT);
     }
 
-    public override void OnBtnClicked(ZoneButton clickedBtn)
+    public override void OnBtnClicked(int clickedBtnIndex)
     {
-        
+        if(clickedBtnIndex == btn.BtnNum)
+        {
+            btn.SetBtnState(new ZoneSelectedState(btn));
+        }
     }
 }

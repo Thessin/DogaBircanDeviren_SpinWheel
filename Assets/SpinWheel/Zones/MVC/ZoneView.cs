@@ -11,16 +11,44 @@ public class ZoneView : MonoBehaviour
     [SerializeField]
     private Transform zoneBtnParent;
 
-    private List<ZoneButton> instantiatedBtns = new List<ZoneButton>();
+    private ZoneButton[] instantiatedBtns;
 
-    public void SetupZones(ZoneListWrapper zoneList, Action<int> OnBtnClicked)
+    public event Action<int> OnBtnClicked;
+
+    private void OnDestroy()
     {
+        OnBtnClicked = null;
+    }
+
+    public void SetupZones(ZoneListWrapper zoneList)
+    {
+        int zoneListCount = zoneList.GetZoneListCount();
+
+        instantiatedBtns = new ZoneButton[zoneListCount];
+
         for (int i = 0; i < zoneList.GetZoneListCount(); i++)
         {
             ZoneButton btn = Instantiate(btnGO, zoneBtnParent);
             btn.SetupBtn(i, zoneList.GetZoneType(i));
-            btn.OnClicked += OnBtnClicked;
-            instantiatedBtns.Add(btn);
+            btn.OnClicked -= OnButtonClicked;
+            btn.OnClicked += OnButtonClicked;
+            instantiatedBtns[i] = btn;
         }
+    }
+
+    public void OnButtonClicked(int clickedIndex)
+    {
+        // Need to send every zone button which one is chosen so they can decide on their states.
+        foreach (ZoneButton btn in instantiatedBtns)
+        {
+            btn.ZoneBtnState.OnBtnClicked(clickedIndex);
+        }
+
+        OnBtnClicked?.Invoke(clickedIndex);
+    }
+
+    public void UpdateButtons(ZoneModel model)
+    {
+
     }
 }

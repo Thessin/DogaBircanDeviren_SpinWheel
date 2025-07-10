@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class ZoneModel
 {
-    public ZoneInfo currentlySelectedZone;
+    public ZoneListWrapper zoneList;
 }

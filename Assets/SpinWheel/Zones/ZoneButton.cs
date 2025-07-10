@@ -14,23 +14,33 @@ public class ZoneButton : MonoBehaviour
     [SerializeField, HideInInspector]
     private TextMeshProUGUI zoneTxt;
 
-    [SerializeField, HideInInspector]
-    private Image bgImg;
+    [SerializeField]
+    private Image frameImg, bgImg;
 
     public event Action<int> OnClicked;
 
-    private int btnNum;
+    // Button index num.
+    public int BtnNum { get; private set; }
 
     [SerializeField]
     private AssetReferenceSprite normalBGRef, safeBGRef, superBGRef;
+    [SerializeField]
+    private AssetReferenceSprite nonSelectedFrameRef, selectedFrameRef, currentFrameRef;
 
-    private AsyncOperationHandle<Sprite> bgImgOpHandle;
+    private AsyncOperationHandle<Sprite> bgImgOpHandle, frameImgOpHandle;
+
+    public ZoneBtnStateBase ZoneBtnState { get;private set; }
 
     private void OnValidate()
     {
         btn = GetComponent<Button>();
         zoneTxt = GetComponentInChildren<TextMeshProUGUI>();
-        bgImg = GetComponent<Image>();
+    }
+
+    private void Awake()
+    {
+        // This should be unselected at first.
+        SetBtnState(new ZoneNonSelectedState(this));
     }
 
     private void OnEnable()
@@ -52,7 +62,7 @@ public class ZoneButton : MonoBehaviour
     {
         // Setting zone number text.
         zoneTxt.text = (zoneNumber + 1).ToString(); // +1 since levels shouldn't start with 0.
-        btnNum = zoneNumber;
+        BtnNum = zoneNumber;
 
         // Setting background image.
         if (bgImgOpHandle.IsValid()) Addressables.Release(bgImgOpHandle);
@@ -75,6 +85,39 @@ public class ZoneButton : MonoBehaviour
 
     private void OnBtnClicked()
     {
-        OnClicked?.Invoke(btnNum);
+        OnClicked?.Invoke(BtnNum);
     }
+
+    public void SetBtnState(ZoneBtnStateBase zoneBtnState)
+    {
+        this.ZoneBtnState = zoneBtnState;
+        this.ZoneBtnState.EnterState();
+    }
+
+    public void SetBtnFrameImg(BtnFrameImageType frameType)
+    {
+        AssetReferenceSprite chosenRef;
+        if (frameImgOpHandle.IsValid()) Addressables.Release(frameImgOpHandle);
+        switch (frameType)
+        {
+            case BtnFrameImageType.SELECTED:
+                chosenRef = selectedFrameRef;
+                break;
+            case BtnFrameImageType.CURRENT:
+                chosenRef = currentFrameRef;
+                break;
+            default:
+                chosenRef = nonSelectedFrameRef;
+                break;
+        }
+        frameImgOpHandle = Addressables.LoadAssetAsync<Sprite>(chosenRef);
+        frameImgOpHandle.Completed += (result) => frameImg.sprite = result.Result;
+    }
+}
+
+public enum BtnFrameImageType
+{
+    NON_SELECTED,
+    SELECTED,
+    CURRENT
 }
