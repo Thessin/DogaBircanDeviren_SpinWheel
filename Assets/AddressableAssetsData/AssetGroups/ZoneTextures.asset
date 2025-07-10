@@ -37,7 +37,7 @@ MonoBehaviour:
     m_Address: ui_card_panel_zone_non_selected
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 36c90b9e7aaf2154596d0b7647dcf2fd
+  - m_GUID: f837a8e083005ca46b38345d2d87ccf2
     m_Address: ui_card_panel_zone_selected
     m_ReadOnly: 0
     m_SerializedLabels: []
