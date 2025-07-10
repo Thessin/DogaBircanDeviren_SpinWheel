@@ -12,11 +12,11 @@ public class ZoneListSO : ScriptableObject
         ZoneType zoneType = ZoneType.NORMAL;
         for (int i = 0; i < zoneInfoList.Count; i++)
         {
-            if (i % 30 == 0 && i != 0)
+            if ((i + 1) % 30 == 0 && i != 0)
             {
                 zoneType = ZoneType.SUPER;
             }
-            else if (i % 5 == 0 && i != 0)
+            else if ((i + 1) % 5 == 0 || i == 0)
             {
                 zoneType = ZoneType.SAFE;
             }
