@@ -37,6 +37,7 @@ public class SpinWheelController : MonoBehaviour
             model = new SpinWheelModel();
 
         model.currentZone = zoneInfo;
+        spinBtn.interactable = model.IsSpinnable();
         view.SetupWheel(model);
     }
 

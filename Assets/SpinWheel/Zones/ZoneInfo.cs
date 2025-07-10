@@ -4,6 +4,8 @@ using UnityEngine;
 [Serializable]
 public class ZoneInfo
 {
+    [SerializeField]
+    private int zoneIndex;
     [SerializeField] 
     private RewardInfo[] rewards;
     [HideInInspector]
@@ -19,6 +21,8 @@ public class ZoneInfo
     public RewardInfo GetReward(int rewardIndex) => rewards[rewardIndex];
 
     public int GetRewardCount() => rewards.Length;
+
+    public int GetZoneIndex() => zoneIndex;
 }
 
 public enum ZoneType
