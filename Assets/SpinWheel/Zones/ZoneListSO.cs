@@ -50,7 +50,6 @@ public class ZoneListSO : ScriptableObject
     /// <param name="zoneCount"></param>
     private void CreateTestList(int zoneCount)
     {
-        Debug.LogWarning("CREATE TEST LIST CALLED WITH ZONE COUNT " + zoneCount);
         if (zoneInfoList == null)
             zoneInfoList = new List<ZoneInfo>();
 

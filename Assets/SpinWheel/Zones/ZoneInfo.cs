@@ -38,7 +38,7 @@ public class ZoneInfo
         spinCountMax = 32;
 
         rewards = new RewardInfo[8];
-        Debug.Log("SETTING RANDOM REWARDS");
+
         string folderPath = "Assets/SpinWheel/Rewards/RewardObjects";
 
         string[] guids = AssetDatabase.FindAssets("t:ScriptableObject", new[] { folderPath });
@@ -48,7 +48,6 @@ public class ZoneInfo
         foreach (string guid in guids)
         {
             string assetPath = AssetDatabase.GUIDToAssetPath(guid);
-            Debug.Log("SETTING RANDOM REWARDS ASSET PATH " + assetPath);
 
             rewardAssets.Add(AssetDatabase.LoadAssetAtPath<RewardSO>(assetPath));
         }
