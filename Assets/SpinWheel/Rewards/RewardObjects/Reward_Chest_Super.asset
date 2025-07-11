@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bec3e401fd251c0418f5f5ece3bb8f54, type: 3}
-  m_Name: RewardTest
+  m_Name: Reward_Chest_Super
   m_EditorClassIdentifier: 
+  rewardId: 9
   rewardImgRef:
-    m_AssetGUID: 19edbe32507e1d24d8f285d72b1d893e
+    m_AssetGUID: 3e686951c603fb5449b819220e9e4086
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
+  rewardType: 0

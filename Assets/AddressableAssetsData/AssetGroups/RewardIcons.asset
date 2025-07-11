@@ -149,6 +149,10 @@ MonoBehaviour:
     m_Address: UI_Icons_Vest_Points
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 49a91d80b77476f46acc12e25bc27063
+    m_Address: ui_card_icon_death
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8ec5e4e1750048e44be156cf4790ffe0, type: 2}
   m_SchemaSet:
