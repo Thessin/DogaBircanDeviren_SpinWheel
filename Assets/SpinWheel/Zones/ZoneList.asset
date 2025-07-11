@@ -16,7 +16,7 @@ MonoBehaviour:
   - zoneIndex: 0
     rewards:
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 3
+      rewardMultiplier: 324256
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
       rewardMultiplier: 6
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
@@ -34,7 +34,7 @@ MonoBehaviour:
     zoneType: 1
     spinCountMin: 24
     spinCountMax: 32
-  - zoneIndex: 0
+  - zoneIndex: 1
     rewards:
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
       rewardMultiplier: 13000
@@ -55,7 +55,7 @@ MonoBehaviour:
     zoneType: 0
     spinCountMin: 16
     spinCountMax: 24
-  - zoneIndex: 0
+  - zoneIndex: 2
     rewards:
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
       rewardMultiplier: 13000
@@ -76,7 +76,7 @@ MonoBehaviour:
     zoneType: 0
     spinCountMin: 16
     spinCountMax: 24
-  - zoneIndex: 0
+  - zoneIndex: 3
     rewards:
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
       rewardMultiplier: 13000
@@ -97,7 +97,7 @@ MonoBehaviour:
     zoneType: 0
     spinCountMin: 16
     spinCountMax: 24
-  - zoneIndex: 0
+  - zoneIndex: 4
     rewards:
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
       rewardMultiplier: 13000
@@ -118,7 +118,7 @@ MonoBehaviour:
     zoneType: 1
     spinCountMin: 16
     spinCountMax: 24
-  - zoneIndex: 0
+  - zoneIndex: 5
     rewards:
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
       rewardMultiplier: 13000

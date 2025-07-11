@@ -7,7 +7,10 @@ using UnityEngine.UI;
 public class SpinWheelController : MonoBehaviour
 {
     [SerializeField]
-    private SpinWheelView view;
+    private SpinWheelView wheelView;
+
+    [SerializeField]
+    private InventoryView inventoryView;
 
     private SpinWheelModel model;
 
@@ -15,6 +18,8 @@ public class SpinWheelController : MonoBehaviour
     private Button spinBtn;
 
     public event Action<int> OnReward;
+
+    public bool IsSpinning { get; private set; } = false;
 
     private void OnValidate()
     {
@@ -29,13 +34,13 @@ public class SpinWheelController : MonoBehaviour
     private void OnEnable()
     {
         spinBtn.onClick.AddListener(OnSpinBtnClicked);
-        view.OnSpinRotateComplete += GiveReward;
+        wheelView.OnSpinRotateComplete += GiveReward;
     }
 
     private void OnDisable()
     {
         spinBtn.onClick.RemoveListener(OnSpinBtnClicked);
-        view.OnSpinRotateComplete -= GiveReward;
+        wheelView.OnSpinRotateComplete -= GiveReward;
     }
 
     public void SetupController(ZoneInfo zoneInfo)
@@ -45,7 +50,7 @@ public class SpinWheelController : MonoBehaviour
 
         model.currentZone = zoneInfo;
         spinBtn.interactable = model.IsSpinnable();
-        view.SetupWheel(model);
+        wheelView.SetupWheel(model);
     }
 
     private void OnSpinBtnClicked()
@@ -53,7 +58,8 @@ public class SpinWheelController : MonoBehaviour
         int spinCount = model.currentZone.GetRandomSpinCount();
 
         // Since spin count changes with every call, we need to send the reference of the reward to the chosen object and listen back.
-        view.SpinTheWheel(spinCount * 45.0f, model.currentZone.GetReward(spinCount % 8));
+        wheelView.SpinTheWheel(spinCount * 45.0f, model.currentZone.GetReward(spinCount % 8));
+        IsSpinning = true;
 
         // SpinBtn needs to be locked during spinning.
         spinBtn.interactable = false;
@@ -65,13 +71,23 @@ public class SpinWheelController : MonoBehaviour
         {
             case RewardType.BOMB:
                 model.ResetModel();
+                inventoryView.ResetView();
                 // TODO: Restart the game / Open the continue system. 
                 break;
             default:
                 model.AddReward(reward);
+                inventoryView.UpdateInventory(model);
                 break;
         }
 
         OnReward?.Invoke(model.GetRewardedCount());
+        IsSpinning = false;
+    }
+
+    public void ResetController()
+    {
+        model.ResetModel();
+        spinBtn.interactable = false;
+        inventoryView.ResetView();
     }
 }

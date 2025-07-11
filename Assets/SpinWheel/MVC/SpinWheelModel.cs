@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class SpinWheelModel
 {
     public ZoneInfo currentZone;
-    public Dictionary<int, RewardInfo> currentlyCollectedRewards = new Dictionary<int, RewardInfo>();
+    private Dictionary<int, RewardInfo> currentlyCollectedRewards = new Dictionary<int, RewardInfo>();
 
-    private int rewardedCount = 0;
+    private int rewardedCount = 0; // To know which zone we are at.
 
     public void AddReward(RewardInfo reward)
     {
@@ -26,6 +27,8 @@ public class SpinWheelModel
     }
 
     public int GetRewardedCount() => rewardedCount;
+
+    public List<RewardInfo> GetCurrentlyCollectedRewards() => currentlyCollectedRewards.Values.ToList();
 
     public void ResetModel()
     {

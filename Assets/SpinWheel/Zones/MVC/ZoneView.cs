@@ -24,16 +24,24 @@ public class ZoneView : MonoBehaviour
     {
         int zoneListCount = zoneList.GetZoneListCount();
 
-        instantiatedBtns = new ZoneButton[zoneListCount];
+        if (instantiatedBtns == null)
+            instantiatedBtns = new ZoneButton[zoneListCount];
 
         for (int i = 0; i < zoneListCount; i++)
         {
-            ZoneButton btn = Instantiate(btnGO, zoneBtnParent);
-            btn.gameObject.name += ("_" + i);
+            ZoneButton btn;
+            if (instantiatedBtns[i] == null)
+            {
+                btn = Instantiate(btnGO, zoneBtnParent);
+                btn.gameObject.name += ("_" + i);
+                instantiatedBtns[i] = btn;
+            }
+            else
+                btn = instantiatedBtns[i];
+
             btn.SetupBtn(i, zoneList.GetZoneType(i));
             btn.OnClicked -= ButtonClicked;
             btn.OnClicked += ButtonClicked;
-            instantiatedBtns[i] = btn;
         }
     }
 

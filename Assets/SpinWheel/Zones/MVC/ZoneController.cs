@@ -43,4 +43,11 @@ public class ZoneController : MonoBehaviour
         model.ZoneSpun();
         view.ZoneRewarded(model);
     }
+
+    public int GetCurrentZoneIndex() => model.CurrentZoneIndex;
+
+    public void ResetController()
+    {
+        model.ResetModel();
+    }
 }
