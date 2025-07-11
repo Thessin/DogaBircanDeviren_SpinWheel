@@ -14,6 +14,7 @@ public class SpinWheelMenu : MonoBehaviour
     [SerializeField]
     private ZoneListWrapper zoneList;
 
+    [SerializeField, HideInInspector]
     private Button retireBtn;
 
     private void OnValidate()
