@@ -129,10 +129,6 @@ MonoBehaviour:
     m_Address: UI_Icons_Pistol_Points
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: b7f388358c1c55f42937c1a9f0685a8e
-    m_Address: UI_Icons_Pistol_Points_
-    m_ReadOnly: 0
-    m_SerializedLabels: []
   - m_GUID: dcf1114a2c6a7a1499b500a542bc17fa
     m_Address: UI_Icons_Rifle_Points
     m_ReadOnly: 0
@@ -147,10 +143,6 @@ MonoBehaviour:
     m_SerializedLabels: []
   - m_GUID: a61c8237c3de97c42bd0d1636c6e72d2
     m_Address: UI_Icons_Sniper_Points
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 17b87a0a8a5f73a4c9b0ddae158af1ed
-    m_Address: UI_Icons_Submachine_Points
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 7c2f7a30dd52b374f972e38e869f18dd
