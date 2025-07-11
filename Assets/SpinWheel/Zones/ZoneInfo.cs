@@ -34,6 +34,23 @@ public class ZoneInfo
     {
         this.zoneIndex = zoneIndex;
 
+        ZoneType chosenType = ZoneType.NORMAL;
+        if ((zoneIndex + 1) % 30 == 0 && zoneIndex != 0)
+        {
+            chosenType = ZoneType.SUPER;
+        }
+        else if ((zoneIndex + 1) % 5 == 0 || zoneIndex == 0)
+        {
+            chosenType = ZoneType.SAFE;
+        }
+        else
+        {
+            chosenType = ZoneType.NORMAL;
+        }
+
+        // Setting zone types with needed values.
+        zoneType = chosenType;
+
         spinCountMin = 24;
         spinCountMax = 32;
 
@@ -70,23 +87,6 @@ public class ZoneInfo
                 addedRewardCount++;
             }
         }
-
-        ZoneType chosenType = ZoneType.NORMAL;
-        if ((zoneIndex + 1) % 30 == 0 && zoneIndex != 0)
-        {
-            chosenType = ZoneType.SUPER;
-        }
-        else if ((zoneIndex + 1) % 5 == 0 || zoneIndex == 0)
-        {
-            chosenType = ZoneType.SAFE;
-        }
-        else
-        {
-            chosenType = ZoneType.NORMAL;
-        }
-
-        // Setting zone types with needed values.
-        zoneType = chosenType;
     }
 #endif
 }
