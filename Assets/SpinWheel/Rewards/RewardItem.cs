@@ -31,6 +31,7 @@ public class RewardItem : MonoBehaviour
         spriteLoadHandle = Addressables.LoadAssetAsync<Sprite>(info.GetRewardImgRef());
         spriteLoadHandle.Completed += (result) => itemImage.sprite = result.Result;
 
+        multiplierTxt.gameObject.SetActive(info.GetRewardType() != RewardType.BOMB);
         multiplierTxt.text = "x" + info.GetRewardMultiplierTxt();
     }
 }
