@@ -26,7 +26,7 @@ public class ZoneView : MonoBehaviour
 
         instantiatedBtns = new ZoneButton[zoneListCount];
 
-        for (int i = 0; i < zoneList.GetZoneListCount(); i++)
+        for (int i = 0; i < zoneListCount; i++)
         {
             ZoneButton btn = Instantiate(btnGO, zoneBtnParent);
             btn.gameObject.name += ("_" + i);
