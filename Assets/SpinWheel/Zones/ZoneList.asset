@@ -16,13 +16,13 @@ MonoBehaviour:
   - zoneIndex: 0
     rewards:
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 324256
+      rewardMultiplier: 1219683
     - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
       rewardMultiplier: 6
     - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
       rewardMultiplier: 2
     - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
-      rewardMultiplier: 8
+      rewardMultiplier: 381442
     - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
       rewardMultiplier: 7
     - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
@@ -49,7 +49,7 @@ MonoBehaviour:
     - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
       rewardMultiplier: 1231241
     - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
-      rewardMultiplier: 324252
+      rewardMultiplier: 635479
     - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
       rewardMultiplier: 1
     zoneType: 0
@@ -60,19 +60,19 @@ MonoBehaviour:
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
       rewardMultiplier: 13000
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 8000
+      rewardMultiplier: 63566
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
       rewardMultiplier: 1310000
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 123123
+      rewardMultiplier: 1368487
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
       rewardMultiplier: 14123
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
       rewardMultiplier: 1231241
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 324252
+      rewardMultiplier: 661504
     - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 1
+      rewardMultiplier: 475668
     zoneType: 0
     spinCountMin: 16
     spinCountMax: 24
@@ -120,631 +120,631 @@ MonoBehaviour:
     spinCountMax: 24
   - zoneIndex: 5
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
-      rewardMultiplier: 96731
-    - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
-      rewardMultiplier: 150846
     - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 289900
+      rewardMultiplier: 200755
+    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
+      rewardMultiplier: 402137
+    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
+      rewardMultiplier: 406669
+    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
+      rewardMultiplier: 264333
+    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
+      rewardMultiplier: 278793
     - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
-      rewardMultiplier: 191282
-    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
-      rewardMultiplier: 237197
-    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 418586
-    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
-      rewardMultiplier: 292339
-    - rewardSO: {fileID: 11400000, guid: 2ade0a272184bcb448b99efe53275028, type: 2}
-      rewardMultiplier: 349297
+      rewardMultiplier: 376749
+    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
+      rewardMultiplier: 408357
+    - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
+      rewardMultiplier: 253303
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 6
     rewards:
+    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
+      rewardMultiplier: 413591
+    - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
+      rewardMultiplier: 422942
+    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
+      rewardMultiplier: 366968
+    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
+      rewardMultiplier: 367166
     - rewardSO: {fileID: 11400000, guid: 2ade0a272184bcb448b99efe53275028, type: 2}
-      rewardMultiplier: 366820
-    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
-      rewardMultiplier: 148870
-    - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
-      rewardMultiplier: 235947
+      rewardMultiplier: 137837
     - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
-      rewardMultiplier: 116301
-    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 144779
-    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
-      rewardMultiplier: 122070
-    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
-      rewardMultiplier: 180853
-    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
-      rewardMultiplier: 131176
+      rewardMultiplier: 53974
+    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
+      rewardMultiplier: 458567
+    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
+      rewardMultiplier: 266456
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 7
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
-      rewardMultiplier: 155770
-    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
-      rewardMultiplier: 282673
+    - rewardSO: {fileID: 11400000, guid: 2ade0a272184bcb448b99efe53275028, type: 2}
+      rewardMultiplier: 267658
+    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
+      rewardMultiplier: 196411
     - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
-      rewardMultiplier: 1155
-    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
-      rewardMultiplier: 179083
-    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
-      rewardMultiplier: 58462
-    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
-      rewardMultiplier: 320074
+      rewardMultiplier: 186896
+    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
+      rewardMultiplier: 258719
+    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
+      rewardMultiplier: 135027
+    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
+      rewardMultiplier: 418795
     - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
-      rewardMultiplier: 413098
-    - rewardSO: {fileID: 11400000, guid: d5ce84b299e75104da0a35341888582e, type: 2}
-      rewardMultiplier: 118366
+      rewardMultiplier: 371180
+    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
+      rewardMultiplier: 398399
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 8
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 392316
-    - rewardSO: {fileID: 11400000, guid: 2ade0a272184bcb448b99efe53275028, type: 2}
-      rewardMultiplier: 60722
-    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
-      rewardMultiplier: 185436
+    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
+      rewardMultiplier: 37315
+    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
+      rewardMultiplier: 330537
     - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
-      rewardMultiplier: 107990
-    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
-      rewardMultiplier: 184163
-    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
-      rewardMultiplier: 497955
-    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 40048
+      rewardMultiplier: 202096
+    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
+      rewardMultiplier: 430541
     - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
-      rewardMultiplier: 335560
+      rewardMultiplier: 420074
+    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
+      rewardMultiplier: 52535
+    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
+      rewardMultiplier: 322366
+    - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
+      rewardMultiplier: 96300
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 9
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
-      rewardMultiplier: 4643
-    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 84642
-    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
-      rewardMultiplier: 458824
-    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
-      rewardMultiplier: 396256
-    - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
-      rewardMultiplier: 81298
+    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
+      rewardMultiplier: 419257
+    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
+      rewardMultiplier: 117372
     - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
-      rewardMultiplier: 258045
-    - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
-      rewardMultiplier: 194173
-    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
-      rewardMultiplier: 127706
-    zoneType: 0
+      rewardMultiplier: 132827
+    - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
+      rewardMultiplier: 3242
+    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
+      rewardMultiplier: 432417
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 14568
+    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
+      rewardMultiplier: 318878
+    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
+      rewardMultiplier: 131550
+    zoneType: 1
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 10
     rewards:
+    - rewardSO: {fileID: 11400000, guid: d5ce84b299e75104da0a35341888582e, type: 2}
+      rewardMultiplier: 96349
+    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
+      rewardMultiplier: 60513
+    - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
+      rewardMultiplier: 67256
+    - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
+      rewardMultiplier: 489784
     - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
-      rewardMultiplier: 385408
-    - rewardSO: {fileID: 11400000, guid: 2ade0a272184bcb448b99efe53275028, type: 2}
-      rewardMultiplier: 267185
-    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 41442
-    - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
-      rewardMultiplier: 17096
-    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
-      rewardMultiplier: 212361
-    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
-      rewardMultiplier: 486305
-    - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
-      rewardMultiplier: 276397
-    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
-      rewardMultiplier: 255779
+      rewardMultiplier: 99753
+    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
+      rewardMultiplier: 388233
+    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
+      rewardMultiplier: 201170
+    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
+      rewardMultiplier: 101324
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 11
     rewards:
-    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
-      rewardMultiplier: 210393
+    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
+      rewardMultiplier: 494028
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 206800
+    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
+      rewardMultiplier: 33719
+    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
+      rewardMultiplier: 1174
     - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 128572
-    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
-      rewardMultiplier: 77078
-    - rewardSO: {fileID: 11400000, guid: d5ce84b299e75104da0a35341888582e, type: 2}
-      rewardMultiplier: 369217
-    - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
-      rewardMultiplier: 68894
+      rewardMultiplier: 343481
     - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
-      rewardMultiplier: 96527
-    - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
-      rewardMultiplier: 103726
-    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
-      rewardMultiplier: 10161
+      rewardMultiplier: 216263
+    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
+      rewardMultiplier: 329606
+    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
+      rewardMultiplier: 194335
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 12
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
-      rewardMultiplier: 51633
-    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
-      rewardMultiplier: 332977
     - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
-      rewardMultiplier: 336805
-    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
-      rewardMultiplier: 95531
-    - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
-      rewardMultiplier: 277335
-    - rewardSO: {fileID: 11400000, guid: d5ce84b299e75104da0a35341888582e, type: 2}
-      rewardMultiplier: 59268
-    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
-      rewardMultiplier: 350604
-    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
-      rewardMultiplier: 329135
+      rewardMultiplier: 176867
+    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
+      rewardMultiplier: 444848
+    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
+      rewardMultiplier: 140223
+    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
+      rewardMultiplier: 158866
+    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
+      rewardMultiplier: 103113
+    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
+      rewardMultiplier: 481965
+    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
+      rewardMultiplier: 391469
+    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
+      rewardMultiplier: 152034
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 13
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
-      rewardMultiplier: 479073
     - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
-      rewardMultiplier: 39651
-    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
-      rewardMultiplier: 445445
-    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
-      rewardMultiplier: 442983
-    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
-      rewardMultiplier: 417940
-    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
-      rewardMultiplier: 109247
-    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
-      rewardMultiplier: 117138
-    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
-      rewardMultiplier: 486770
+      rewardMultiplier: 242906
+    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
+      rewardMultiplier: 448468
+    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
+      rewardMultiplier: 315178
+    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
+      rewardMultiplier: 45596
+    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
+      rewardMultiplier: 406050
+    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
+      rewardMultiplier: 261974
+    - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
+      rewardMultiplier: 9794
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 246876
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 14
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
-      rewardMultiplier: 303371
-    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
-      rewardMultiplier: 400659
-    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
-      rewardMultiplier: 460183
-    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
-      rewardMultiplier: 261047
-    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
-      rewardMultiplier: 373795
-    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
-      rewardMultiplier: 298411
-    - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
-      rewardMultiplier: 486490
-    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
-      rewardMultiplier: 372510
-    zoneType: 0
+    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
+      rewardMultiplier: 272679
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 12247
+    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
+      rewardMultiplier: 51386
+    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
+      rewardMultiplier: 204776
+    - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
+      rewardMultiplier: 210798
+    - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
+      rewardMultiplier: 380450
+    - rewardSO: {fileID: 11400000, guid: 2ade0a272184bcb448b99efe53275028, type: 2}
+      rewardMultiplier: 243316
+    - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
+      rewardMultiplier: 226785
+    zoneType: 1
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 15
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
-      rewardMultiplier: 438506
-    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
-      rewardMultiplier: 364572
-    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
-      rewardMultiplier: 299357
-    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 289282
-    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
-      rewardMultiplier: 255557
+    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
+      rewardMultiplier: 163243
+    - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
+      rewardMultiplier: 352189
+    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
+      rewardMultiplier: 25677
+    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
+      rewardMultiplier: 412310
     - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
-      rewardMultiplier: 475311
-    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
-      rewardMultiplier: 303081
+      rewardMultiplier: 120330
     - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 269538
+      rewardMultiplier: 142082
+    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
+      rewardMultiplier: 61392
+    - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
+      rewardMultiplier: 464143
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 16
     rewards:
-    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
-      rewardMultiplier: 482915
+    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
+      rewardMultiplier: 286699
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 201357
     - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
-      rewardMultiplier: 338644
-    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 254668
-    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
-      rewardMultiplier: 73107
-    - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
-      rewardMultiplier: 37663
-    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
-      rewardMultiplier: 336822
-    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
-      rewardMultiplier: 5998
+      rewardMultiplier: 338214
+    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
+      rewardMultiplier: 23797
+    - rewardSO: {fileID: 11400000, guid: 2ade0a272184bcb448b99efe53275028, type: 2}
+      rewardMultiplier: 326626
+    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
+      rewardMultiplier: 157473
+    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
+      rewardMultiplier: 42986
     - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
-      rewardMultiplier: 127713
+      rewardMultiplier: 473603
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 17
     rewards:
-    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
-      rewardMultiplier: 382112
-    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
-      rewardMultiplier: 368438
-    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
-      rewardMultiplier: 301521
-    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
-      rewardMultiplier: 294001
-    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
-      rewardMultiplier: 262486
-    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
-      rewardMultiplier: 85251
-    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
-      rewardMultiplier: 198911
-    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 277726
+    - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
+      rewardMultiplier: 469740
+    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
+      rewardMultiplier: 236620
+    - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
+      rewardMultiplier: 437015
+    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
+      rewardMultiplier: 350950
+    - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
+      rewardMultiplier: 7628
+    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
+      rewardMultiplier: 359309
+    - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
+      rewardMultiplier: 309097
+    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
+      rewardMultiplier: 487752
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 18
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 342694
-    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
-      rewardMultiplier: 186344
-    - rewardSO: {fileID: 11400000, guid: 840101dbf2910cb4a95b62e38fa87e28, type: 2}
-      rewardMultiplier: 473871
-    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
-      rewardMultiplier: 358644
-    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
-      rewardMultiplier: 64947
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 288571
+    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
+      rewardMultiplier: 334793
+    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
+      rewardMultiplier: 370077
+    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
+      rewardMultiplier: 158072
+    - rewardSO: {fileID: 11400000, guid: d5ce84b299e75104da0a35341888582e, type: 2}
+      rewardMultiplier: 243633
+    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
+      rewardMultiplier: 242643
     - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
-      rewardMultiplier: 457626
-    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
-      rewardMultiplier: 196544
-    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
-      rewardMultiplier: 274630
+      rewardMultiplier: 168876
+    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
+      rewardMultiplier: 342928
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 19
     rewards:
-    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
-      rewardMultiplier: 419028
+    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
+      rewardMultiplier: 412820
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 21112
+    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
+      rewardMultiplier: 265635
+    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
+      rewardMultiplier: 341897
+    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
+      rewardMultiplier: 257649
     - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
-      rewardMultiplier: 199746
-    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
-      rewardMultiplier: 239306
-    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
-      rewardMultiplier: 338026
-    - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
-      rewardMultiplier: 293269
-    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
-      rewardMultiplier: 20192
+      rewardMultiplier: 331242
+    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
+      rewardMultiplier: 100300
     - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
-      rewardMultiplier: 165884
-    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
-      rewardMultiplier: 350961
-    zoneType: 0
+      rewardMultiplier: 240512
+    zoneType: 1
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 20
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 319517
-    - rewardSO: {fileID: 11400000, guid: f63ed0a39d6f2e04fa2f287927719d67, type: 2}
-      rewardMultiplier: 223476
-    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 12619
-    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
-      rewardMultiplier: 492479
-    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
-      rewardMultiplier: 318738
+    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
+      rewardMultiplier: 402886
     - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
-      rewardMultiplier: 250519
-    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
-      rewardMultiplier: 269705
+      rewardMultiplier: 497326
+    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
+      rewardMultiplier: 438378
+    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
+      rewardMultiplier: 249432
+    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
+      rewardMultiplier: 359606
     - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
-      rewardMultiplier: 426901
+      rewardMultiplier: 169429
+    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
+      rewardMultiplier: 24756
+    - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
+      rewardMultiplier: 334301
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 21
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 2ade0a272184bcb448b99efe53275028, type: 2}
-      rewardMultiplier: 269213
-    - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
-      rewardMultiplier: 351911
-    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
-      rewardMultiplier: 315048
-    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
-      rewardMultiplier: 494142
+    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
+      rewardMultiplier: 307205
     - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
-      rewardMultiplier: 103238
-    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
-      rewardMultiplier: 3651
-    - rewardSO: {fileID: 11400000, guid: 840101dbf2910cb4a95b62e38fa87e28, type: 2}
-      rewardMultiplier: 363048
-    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 321888
+      rewardMultiplier: 107862
+    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
+      rewardMultiplier: 284169
+    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
+      rewardMultiplier: 122887
+    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
+      rewardMultiplier: 37193
+    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
+      rewardMultiplier: 379084
+    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
+      rewardMultiplier: 319338
+    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
+      rewardMultiplier: 434903
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 22
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
-      rewardMultiplier: 246157
+    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
+      rewardMultiplier: 244377
+    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
+      rewardMultiplier: 323024
+    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
+      rewardMultiplier: 83738
+    - rewardSO: {fileID: 11400000, guid: d5ce84b299e75104da0a35341888582e, type: 2}
+      rewardMultiplier: 8560
     - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
-      rewardMultiplier: 87426
+      rewardMultiplier: 131797
+    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
+      rewardMultiplier: 113472
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 289717
     - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
-      rewardMultiplier: 366353
-    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
-      rewardMultiplier: 77189
-    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 444870
-    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
-      rewardMultiplier: 114886
-    - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
-      rewardMultiplier: 96463
-    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
-      rewardMultiplier: 193970
+      rewardMultiplier: 167878
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 23
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
-      rewardMultiplier: 295095
-    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
-      rewardMultiplier: 393672
-    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
-      rewardMultiplier: 1689
-    - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
-      rewardMultiplier: 419374
-    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
-      rewardMultiplier: 26147
-    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 154962
-    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
-      rewardMultiplier: 195877
-    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
-      rewardMultiplier: 455915
+    - rewardSO: {fileID: 11400000, guid: d5ce84b299e75104da0a35341888582e, type: 2}
+      rewardMultiplier: 25761
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 93192
+    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
+      rewardMultiplier: 137731
+    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
+      rewardMultiplier: 194508
+    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
+      rewardMultiplier: 373777
+    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
+      rewardMultiplier: 440763
+    - rewardSO: {fileID: 11400000, guid: 2ade0a272184bcb448b99efe53275028, type: 2}
+      rewardMultiplier: 135693
+    - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
+      rewardMultiplier: 130913
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 24
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 143686
-    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
-      rewardMultiplier: 98768
-    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
-      rewardMultiplier: 102014
-    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
-      rewardMultiplier: 175042
-    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
-      rewardMultiplier: 483708
-    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
-      rewardMultiplier: 85435
-    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
-      rewardMultiplier: 402422
+    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
+      rewardMultiplier: 323337
+    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
+      rewardMultiplier: 438407
     - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
-      rewardMultiplier: 127886
-    zoneType: 0
+      rewardMultiplier: 347596
+    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
+      rewardMultiplier: 496435
+    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
+      rewardMultiplier: 458164
+    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
+      rewardMultiplier: 154590
+    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
+      rewardMultiplier: 455802
+    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
+      rewardMultiplier: 498215
+    zoneType: 1
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 25
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 236334
-    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
-      rewardMultiplier: 420583
-    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
-      rewardMultiplier: 88162
-    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
-      rewardMultiplier: 395058
+    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
+      rewardMultiplier: 71600
     - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
-      rewardMultiplier: 408638
-    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
-      rewardMultiplier: 222845
-    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
-      rewardMultiplier: 370840
-    - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
-      rewardMultiplier: 143802
+      rewardMultiplier: 195391
+    - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
+      rewardMultiplier: 483965
+    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
+      rewardMultiplier: 463814
+    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
+      rewardMultiplier: 208348
+    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
+      rewardMultiplier: 183755
+    - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
+      rewardMultiplier: 261958
+    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
+      rewardMultiplier: 98285
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 26
     rewards:
-    - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
-      rewardMultiplier: 22478
-    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
-      rewardMultiplier: 340136
-    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
-      rewardMultiplier: 148969
-    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
-      rewardMultiplier: 437057
-    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
-      rewardMultiplier: 189845
     - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
-      rewardMultiplier: 244745
+      rewardMultiplier: 153409
+    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
+      rewardMultiplier: 493738
+    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
+      rewardMultiplier: 319366
+    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
+      rewardMultiplier: 368664
+    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
+      rewardMultiplier: 164278
     - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
-      rewardMultiplier: 55628
-    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
-      rewardMultiplier: 357627
+      rewardMultiplier: 279668
+    - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
+      rewardMultiplier: 418001
+    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
+      rewardMultiplier: 86680
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 27
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
-      rewardMultiplier: 442387
-    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
-      rewardMultiplier: 160195
-    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
-      rewardMultiplier: 167852
-    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
-      rewardMultiplier: 492402
-    - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
-      rewardMultiplier: 17958
-    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
-      rewardMultiplier: 144389
-    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
-      rewardMultiplier: 9579
-    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
-      rewardMultiplier: 178897
+    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
+      rewardMultiplier: 293370
+    - rewardSO: {fileID: 11400000, guid: 840101dbf2910cb4a95b62e38fa87e28, type: 2}
+      rewardMultiplier: 271185
+    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
+      rewardMultiplier: 268044
+    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
+      rewardMultiplier: 177406
+    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
+      rewardMultiplier: 407613
+    - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
+      rewardMultiplier: 374177
+    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
+      rewardMultiplier: 455855
+    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
+      rewardMultiplier: 463729
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 28
     rewards:
-    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
-      rewardMultiplier: 341119
-    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
-      rewardMultiplier: 155665
-    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
-      rewardMultiplier: 515
-    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
-      rewardMultiplier: 39153
-    - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
-      rewardMultiplier: 467861
-    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 258916
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 432655
+    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
+      rewardMultiplier: 439747
+    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
+      rewardMultiplier: 395187
+    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
+      rewardMultiplier: 174360
+    - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
+      rewardMultiplier: 99136
+    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
+      rewardMultiplier: 74294
     - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
-      rewardMultiplier: 48605
-    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
-      rewardMultiplier: 66072
+      rewardMultiplier: 78566
+    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
+      rewardMultiplier: 476822
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 29
     rewards:
     - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
-      rewardMultiplier: 466414
-    - rewardSO: {fileID: 11400000, guid: 75108a283e80fcf4ba0c1033ec965ebc, type: 2}
-      rewardMultiplier: 53582
-    - rewardSO: {fileID: 11400000, guid: d5ce84b299e75104da0a35341888582e, type: 2}
-      rewardMultiplier: 271966
-    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
-      rewardMultiplier: 151249
-    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 397496
-    - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
-      rewardMultiplier: 458
-    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
-      rewardMultiplier: 383952
-    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
-      rewardMultiplier: 54961
-    zoneType: 0
+      rewardMultiplier: 26142
+    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
+      rewardMultiplier: 412643
+    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
+      rewardMultiplier: 151737
+    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
+      rewardMultiplier: 289274
+    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
+      rewardMultiplier: 498519
+    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
+      rewardMultiplier: 188217
+    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
+      rewardMultiplier: 78615
+    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
+      rewardMultiplier: 158000
+    zoneType: 2
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 30
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
-      rewardMultiplier: 117792
+    - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
+      rewardMultiplier: 40735
     - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
-      rewardMultiplier: 252556
-    - rewardSO: {fileID: 11400000, guid: d5ce84b299e75104da0a35341888582e, type: 2}
-      rewardMultiplier: 74980
-    - rewardSO: {fileID: 11400000, guid: f2aa25a30ef707642ad1f26621991a50, type: 2}
-      rewardMultiplier: 286360
-    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
-      rewardMultiplier: 381434
-    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
-      rewardMultiplier: 423020
-    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
-      rewardMultiplier: 259848
-    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
-      rewardMultiplier: 174406
+      rewardMultiplier: 334586
+    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
+      rewardMultiplier: 266693
+    - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
+      rewardMultiplier: 286465
+    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
+      rewardMultiplier: 121785
+    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
+      rewardMultiplier: 58661
+    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
+      rewardMultiplier: 184590
+    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
+      rewardMultiplier: 116513
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 31
     rewards:
-    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
-      rewardMultiplier: 56338
-    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
-      rewardMultiplier: 435069
-    - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
-      rewardMultiplier: 497234
-    - rewardSO: {fileID: 11400000, guid: e453c3285f336b24b809a97ff9eb9a2d, type: 2}
-      rewardMultiplier: 355328
+    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
+      rewardMultiplier: 63053
     - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
-      rewardMultiplier: 92617
-    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
-      rewardMultiplier: 147389
-    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
-      rewardMultiplier: 405386
+      rewardMultiplier: 116838
+    - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
+      rewardMultiplier: 81768
+    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
+      rewardMultiplier: 170316
+    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
+      rewardMultiplier: 4302
+    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
+      rewardMultiplier: 467673
+    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
+      rewardMultiplier: 496001
     - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
-      rewardMultiplier: 316026
+      rewardMultiplier: 293801
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 32
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 241208
-    - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 174137
-    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
-      rewardMultiplier: 225465
-    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
-      rewardMultiplier: 148280
-    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
-      rewardMultiplier: 322284
+    - rewardSO: {fileID: 11400000, guid: cafbf35ef70b549408334add0807413e, type: 2}
+      rewardMultiplier: 305239
+    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
+      rewardMultiplier: 307663
     - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
-      rewardMultiplier: 499260
-    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
-      rewardMultiplier: 140845
-    - rewardSO: {fileID: 11400000, guid: 726d168d006f05a49878da12c332210b, type: 2}
-      rewardMultiplier: 440940
+      rewardMultiplier: 83503
+    - rewardSO: {fileID: 11400000, guid: 0cb597dfd80280c4dadf8b7080d06f28, type: 2}
+      rewardMultiplier: 497820
+    - rewardSO: {fileID: 11400000, guid: 5786187153f59c44bb621b4e263fdc5a, type: 2}
+      rewardMultiplier: 257008
+    - rewardSO: {fileID: 11400000, guid: 2ade0a272184bcb448b99efe53275028, type: 2}
+      rewardMultiplier: 139066
+    - rewardSO: {fileID: 11400000, guid: 69de8444e6eea4142b3304c05511e266, type: 2}
+      rewardMultiplier: 162708
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 167630
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 33
     rewards:
-    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
-      rewardMultiplier: 214588
-    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
-      rewardMultiplier: 373698
-    - rewardSO: {fileID: 11400000, guid: 54228f68221bc0044a2f170f4d9e938c, type: 2}
-      rewardMultiplier: 194346
-    - rewardSO: {fileID: 11400000, guid: 46fa721a88b84f84e924fd7c73cb24a7, type: 2}
-      rewardMultiplier: 241010
-    - rewardSO: {fileID: 11400000, guid: b291b645cfd657540b1d5c204999aa5b, type: 2}
-      rewardMultiplier: 483797
     - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
-      rewardMultiplier: 34939
-    - rewardSO: {fileID: 11400000, guid: 416bb908993815c47915e5cbda529b11, type: 2}
-      rewardMultiplier: 356426
+      rewardMultiplier: 428139
+    - rewardSO: {fileID: 11400000, guid: 8a83359e066cb0846a547bc188b5c544, type: 2}
+      rewardMultiplier: 84538
+    - rewardSO: {fileID: 11400000, guid: 840101dbf2910cb4a95b62e38fa87e28, type: 2}
+      rewardMultiplier: 243437
+    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
+      rewardMultiplier: 36933
     - rewardSO: {fileID: 11400000, guid: d42436fb47fa4f343addf24d5e1b6e43, type: 2}
-      rewardMultiplier: 354149
+      rewardMultiplier: 129307
+    - rewardSO: {fileID: 11400000, guid: affd23676b313844b903054c137ac960, type: 2}
+      rewardMultiplier: 162881
+    - rewardSO: {fileID: 11400000, guid: 1e437d4ae7f56ba43abec253fd9286a0, type: 2}
+      rewardMultiplier: 175813
+    - rewardSO: {fileID: 11400000, guid: 8d5805e8254a00e418cbdc1e68984cb5, type: 2}
+      rewardMultiplier: 328374
     zoneType: 0
     spinCountMin: 24
     spinCountMax: 32
   - zoneIndex: 34
     rewards:
-    - rewardSO: {fileID: 11400000, guid: d69da299012809649927b038a016ca5b, type: 2}
-      rewardMultiplier: 425797
-    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
-      rewardMultiplier: 435341
     - rewardSO: {fileID: 11400000, guid: 1855f0ccc5af12745bbd4a517abf7240, type: 2}
-      rewardMultiplier: 333431
+      rewardMultiplier: 435495
+    - rewardSO: {fileID: 11400000, guid: 7551c6332d623424696e66c247ae54bc, type: 2}
+      rewardMultiplier: 433057
+    - rewardSO: {fileID: 11400000, guid: ad89b508cc4d1374193a1200c16ecbdc, type: 2}
+      rewardMultiplier: 253098
+    - rewardSO: {fileID: 11400000, guid: f19dbe61832de794d953312afbb7137a, type: 2}
+      rewardMultiplier: 53463
+    - rewardSO: {fileID: 11400000, guid: cde71ba5d4722f340a2f995b0d278e0c, type: 2}
+      rewardMultiplier: 477300
+    - rewardSO: {fileID: 11400000, guid: d29323ed55456f1498e7a57b3173f87a, type: 2}
+      rewardMultiplier: 409180
     - rewardSO: {fileID: 11400000, guid: 5b6ee13c95aa2284e8e9f2affe0299b7, type: 2}
-      rewardMultiplier: 456033
-    - rewardSO: {fileID: 11400000, guid: f8b03dd6404c85f4eb777d5fc8029e7e, type: 2}
-      rewardMultiplier: 185714
-    - rewardSO: {fileID: 11400000, guid: c4b8b12b59ead5e4995f3feb6257236a, type: 2}
-      rewardMultiplier: 68335
-    - rewardSO: {fileID: 11400000, guid: 93b61e2723e1835409c3042c2b1cac44, type: 2}
-      rewardMultiplier: 345242
-    - rewardSO: {fileID: 11400000, guid: bb60ded18636fd44b8edc71d4acb0748, type: 2}
-      rewardMultiplier: 211063
-    zoneType: 0
+      rewardMultiplier: 27716
+    - rewardSO: {fileID: 11400000, guid: 7365fb8d55cf78242b21a1342040344b, type: 2}
+      rewardMultiplier: 455243
+    zoneType: 1
     spinCountMin: 24
     spinCountMax: 32
