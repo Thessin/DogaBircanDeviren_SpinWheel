@@ -18,27 +18,21 @@ public class InventoryView : MonoBehaviour
 
         if (rewardItems.Count < rewardList.Count) // Need to create new reward items, since there is not enough reward items.
         {
-            int itemNum = 0;
-            foreach (RewardInfo infoItem in rewardList)
+            for (int i = rewardItems.Count; i < rewardList.Count; i++)
             {
                 RewardItem itemObj = Instantiate(rewardItemGO, rewardItemParent);
-                itemObj.name += "_" + itemNum;
-                itemNum++;
-                itemObj.Setup(infoItem);
-                itemObj.transform.SetAsLastSibling(); // New ones should stick to bottom.
+                itemObj.name += "_" + i;
                 rewardItems.Add(itemObj);
-            } 
-        }
-        else    // Need to change existing ones.
-        {
-            for (int i = 0; i < rewardList.Count; i++)
-            {
-                RewardItem item = rewardItems[i];
-
-                item.gameObject.SetActive(true);
-                item.transform.SetAsLastSibling();  // New ones should stick to bottom.
-                item.Setup(rewardList[i]);
             }
+        }
+
+        for (int i = 0; i < rewardList.Count; i++)
+        {
+            RewardItem item = rewardItems[i];
+
+            item.gameObject.SetActive(true);
+            item.transform.SetAsLastSibling();  // New ones should stick to bottom.
+            item.Setup(rewardList[i]);
         }
     }
 
