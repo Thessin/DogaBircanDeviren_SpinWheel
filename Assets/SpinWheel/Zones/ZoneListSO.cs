@@ -40,7 +40,9 @@ public class ZoneListSO : ScriptableObject
             }
         }
 
+#if UNITY_EDITOR
         CreateTestList(35);
+#endif
     }
 
 #if UNITY_EDITOR
