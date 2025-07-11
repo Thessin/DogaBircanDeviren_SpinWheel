@@ -18,4 +18,15 @@ public class RewardInfo
     public int GetRewardId() => rewardSO.rewardId;
     public AssetReferenceSprite GetRewardImgRef() => rewardSO.rewardImgRef;
     public RewardType GetRewardType() => rewardSO.rewardType;
+
+#if UNITY_EDITOR
+    /// <summary>
+    /// Only to be used in the editor. For testing purposes.
+    /// </summary>
+    /// <param name="so"></param>
+    public void SetRewardSO(RewardSO so)
+    {
+        rewardSO = so;
+    }
+#endif
 }

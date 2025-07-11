@@ -39,5 +39,27 @@ public class ZoneListSO : ScriptableObject
                 Debug.LogWarning("Zone info " + i + "th element doesn't have 8 rewards.");
             }
         }
+
+        CreateTestList(35);
     }
+
+#if UNITY_EDITOR
+    /// <summary>
+    /// Only to be used in the editor. For testing purposes only.
+    /// </summary>
+    /// <param name="zoneCount"></param>
+    private void CreateTestList(int zoneCount)
+    {
+        Debug.LogWarning("CREATE TEST LIST CALLED WITH ZONE COUNT " + zoneCount);
+        if (zoneInfoList == null)
+            zoneInfoList = new List<ZoneInfo>();
+
+        for (int i = zoneInfoList.Count; i < zoneCount; i++)
+        {
+            ZoneInfo infoObj = new ZoneInfo();
+            infoObj.SetRandomRewards(i);
+            zoneInfoList.Add(infoObj);
+        }
+    }
+#endif
 }
